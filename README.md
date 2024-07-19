@@ -5,4 +5,4 @@ This project is based on the todo lists with three statuses (to-do, in-progress,
 Functionalities in list:
 
 1. Login, Signup, DeleteAccount, Logout
-2. Todo list: Add List, Update List, Delete List
+2. Todo list: Add Task, Update Task, Delete Task
