@@ -2,10 +2,8 @@ import PropTypes from 'prop-types';
  
 import { createContext, useContext, useState } from 'react';
 
-// Create context object
 const AuthContext = createContext();
 
-// Custom hook to use AuthContext
 export const useAuth = () => {
   return useContext(AuthContext);
 };

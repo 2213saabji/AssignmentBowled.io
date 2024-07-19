@@ -17,18 +17,15 @@ function Dashboard() {
         }
     }, [user, navigate]);
 
-    // Delete account function
     const deleteAccount = async () => {
         try {
           if (user) {
             await deleteUser(user);
     
-            // Remove the user's entry from taskdata in localStorage
             let taskdata = JSON.parse(localStorage.getItem("taskdata")) || [];
             taskdata = taskdata.filter(item => item.user !== user.email);
             localStorage.setItem("taskdata", JSON.stringify(taskdata));
     
-            // Remove authToken from localStorage
             localStorage.removeItem("authToken");
             setUser(null);
             console.log("User account deleted");
