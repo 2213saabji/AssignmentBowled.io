@@ -1,8 +1,3 @@
-# React + Vite
+REACT + VITE Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is based on the the todo lists on the basis of three status (to-do,inprogress,done). there are lists of the  tasks saved for particular account , i have taken the help for firebase to get authtoken , rest login process and for data storage i have used localStorage , where we have storage different users data and make different differnet storage partition for different different users , we can login signup and deleteAccount in this app , we can store our data within particular account storage , and we can also update the list in this according to deadlines. 
